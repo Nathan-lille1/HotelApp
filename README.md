@@ -14,7 +14,7 @@ $ mvn jetty:run
 ```
 The web application will be deployed on http://localhost:8080
 
-#	Create your own repository 
+#	Create your own repository
 In order to simulate developments made by a team, you will fork an existing repository on GitHub (demarey/HotelApp) .
 
 On your computer, you will get a working copy from the forked repository to be able to work on the Hotels code.
@@ -34,11 +34,12 @@ new Hotel("Hotel Cigogne","Grand place","",2)
 ```
 You are in a hurry and you do not want to loose time: you commit without test it before! Bad idea, but let us see...
 ```bash
-$ git commit –m « adding a new hotel » 
+$ git commit –m « adding a new hotel »
 $ git push
 ```
 Now check if a build is triggered on the CI server. What is the result?
 ##Fix a problem
 As you can see, there is a problem in a test.
 
-**Exercise**: Find the test in error from the Jenkins server. 
+**Exercise**: Find the test in error from the Jenkins server.
+coucou
